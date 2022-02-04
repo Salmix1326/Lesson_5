@@ -1,0 +1,242 @@
+/* ========== Обнуление ========== */
+
+@import "null.css";
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* ========== Header ========== */
+
+.header {
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   margin-bottom: 50px;
+}
+
+.content {
+   max-width: 1500px;
+   height: 100%;
+   margin: 0 auto;
+   font-size: 0;
+}
+
+.nav {
+   height: 110px;
+   width: 1200px;
+   display: inline-block;
+}
+
+.navmenu {
+   font-size: 0; /* Убрал фантомные пробелы */
+   width: 700px;
+   margin: 40px 0 0 auto;
+}
+
+.navlink {
+   
+   color: rgb(255, 0, 0);
+   font-family: 'Oswald', Arial, Helvetica, sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+   background-color: blue;
+   text-transform: uppercase;
+   margin-left: 20px;
+}
+
+/* ========== Main ========== */
+
+.main-title-heroes {
+   text-align: center;
+}
+
+h1, h2 {
+   font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+   text-decoration: underline;
+   text-transform: uppercase;
+   color: crimson;
+   margin-bottom: 50px;
+}
+
+/* ========== Heroes ========== */
+
+.heroes {
+   margin-bottom: 50px;
+}
+
+.heroes-about {
+   display: inline-block;
+   text-align: justify;
+   max-width: 800px;
+   margin: 0 30px;
+}
+
+.heroes-about-title {
+   text-align: center;
+   text-decoration: underline;
+}
+
+.heroes-about-title h2 {
+   font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+
+.heroes-about-main {
+   font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+   font-weight: 700;
+   font-size: 20px;
+   color: black;
+   margin-bottom: 10px;
+}
+
+.heroes-about-text {
+   font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+   color: black;
+   margin-bottom: 10px;
+   word-spacing: 5px;
+}
+
+/* ========== Enemies ========== */
+
+.enemies {
+   margin-bottom: 50px;
+}
+
+.enemies-block-1, .enemies-block-3 {
+   display: inline-block;
+}
+
+.enemies-about {
+   display: inline-block;
+   text-align: justify;
+   width: 400px;
+   height: 200px;
+   background-color: rgb(209, 210, 211);
+   margin-left: 20px;
+   overflow: scroll;
+   padding: 0 10px 15px 10px;
+}
+
+.enemies-about-title {
+   text-align: center;
+}
+
+.enemies-about-title h3 {
+   font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+
+.enemies-about-text {
+   font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+   color: black;
+   line-height: 20px;
+   margin-bottom: 15px;
+}
+
+.enemies-block-2, .enemies-block-4 {
+   display: inline-block;
+   margin-left: 10px;
+}
+
+/* ========== Universe ========== */
+
+.universe {
+   text-align: justify;
+   min-width: 1000px;
+}
+
+.universe-title {
+   text-align: center;
+}
+
+.universe-title h3 {
+   font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   text-decoration: underline;
+   text-transform: uppercase;
+   color: crimson;
+   margin-bottom: 50px;
+}
+
+.universe img {
+   margin-bottom: 50px;
+}
+
+.universe p {
+   font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   font-size: 25px;
+   color: black;
+   line-height: 30px;
+   margin-bottom: 15px;
+   text-shadow: 5px 5px 20px crimson;
+   word-spacing: 10px;
+   letter-spacing: 20px;
+   text-indent: 30px;
+
+}
+
+.uptext {
+   text-indent: 10px;
+   color: brown;
+   font-size: 35px;
+}
+
+.color {
+   color: darkseagreen;
+}
+
+.upper {
+   text-transform: uppercase;
+   color: orange;
+}
+
+span {
+   text-decoration: overline;
+}
+
+mark {
+   color: darkgreen;
+   background-color: black;
+}
+
+/* ========== Footer ========== */
+
+.footer {
+   width: 100%;
+   height: 100px;
+   background-color: red;
+}
+
+.footer-inner {
+   display: inline-block;
+   text-align: center;
+   width: 1200px;
+   height: 100px;
+   padding-top: 40px;
+   
+}
+
+.footer-inner h4 {
+   font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+   font-weight: 700;
+   font-size: 20px;
+   color: rgb(58, 5, 145);
+   margin-bottom: 10px;
+}
+
